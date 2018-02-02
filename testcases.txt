@@ -1,0 +1,31 @@
+TEST CASES
+
+input :  “thing stuff otherstuff blarp”
+ouput : 
+blarp
+otherstuff
+stuff
+thing
+
+input :  “thing1stuff3otherstuff,blarp”
+ouput : 
+blarp
+otherstuff
+stuff
+thing
+
+
+input : "aand, aAnd, Aand, Aand"
+output : 
+AAnd
+Aand
+aAnd
+aand
+
+input : "apple,something...random  A zzz"
+output : 
+A
+apple
+random
+something
+zzz
